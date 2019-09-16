@@ -4,87 +4,92 @@ title: Python — M2 Ingénierie Multilingue 2019
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/LoicGrobol/python-im-2/master)
 
 ## Pratique
-  - Loïc Grobol [\<loic.grobol@gmail.com\>](mailto:loic.grobol@gmail.com)
-  - Yoann Dupont [\<yoa.dupont@gmail.com\>](mailto:yoa.dupont@gmail.com)
-  - Le mercredi de 9h à 12h en salle 304 (Inalco, 2 rue de Lille, Paris) sauf indication contraire
-  - Cette page : <https://loicgrobol.github.io/python-im/m2-2018>
-  - [Consignes pour les projets](projets.md)
+
+- Loïc Grobol [\<loic.grobol@gmail.com\>](mailto:loic.grobol@gmail.com)
+- Yoann Dupont [\<yoa.dupont@gmail.com\>](mailto:yoa.dupont@gmail.com)
+- Le mercredi de 9h à 12h en salle 7,03 (Inalco PLC, 65 rue des Grands Moulins Paris) sauf indication contraire
+- Cette page : <https://loicgrobol.github.io/python-im-2>
+<!-- - [Consignes pour les projets](projets.md) -->
 
 ## Objectifs
 
-Le cours a pour objectif de vous rendre autonome en programmation Python : apprendre les bases du langage, utiliser des modules, comprendre les messages d’erreur, trouver et comprendre la documentation.
+Ce cours a pour objectif de faire de vous des développeuses et des développeurs opérationnels en Python, il suppose que vous êtes déjà en grande partie autonomes dans pour une utilisation simple de Python, ce qui correspond essentiellement aux acquis [du cours de M1](https://clement-plancq.github.io/python-im/m1-2018/) (même si des rappels seront faits aux moments opportuns).
 
+Vous y seront présentés des concepts et de fonctions avancées du langage, ainsi que des outils de développement standards, en insistant sur les bonnes pratiques, la collaboration et la réutilisabilité.
 L’accent sera mis sur le traitement de données textuelles et les problèmes liés aux données multilingues.
 
 ## Programme
 
-Tous les supports sont sur [github](https://github.com/loicgrobol/python-im-2).
+Tous les supports sont sur [github](https://github.com/loicgrobol/python-im-2), les liens vers les slides et les notebooks ci-dessous ouvrent sur Binder pour une utilisation sans rien installer.
 
 ### 2019-09-18 : Rappel des bases
 
 - [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/python-man-1.ipynb)
 
-# Outils
+## Outils
 
 Vous aurez besoin d'un interpréteur Python et d'un éditeur de texte.
 
-## Python & co.
-Vous travaillerons avec Python 3.
+### Python & co.
 
-Les supports de cours sont sous forme de diapos html et surtout de notebooks. Pour utiliser les notebooks (anciennement ipython notebook maintenant jupyter notebook) vous aurez besoin d'installer [Jupyter](http://jupyter.org/) sur votre machine de travail.
+Vous travaillerons avec Python 3.7 et supérieur
+
+Les supports de cours sont essentiellement sous forme de notebooks  [Jupyter](http://jupyter.org/), les diapos utilisant [RISE](https://github.com/damianavila/RISE).
+Pour utiliser les notebooks (anciennement ipython notebook maintenant jupyter notebook) vous aurez besoin d'installer sur votre machine de travail.
 Je vous incite également à utiliser le shell interactif `ipython` qui est une version améliorée du shell `python` (ipython est inclus dans jupyter).
 
 Deux options pour l'installation :
 
-* installer uniquement les outils nécessaires avec pip :
-	1. installer Python3
-	```bash
-	sudo apt-get install python3
-	```
+Installer uniquement les outils nécessaires avec pip:
 
-	2. installer pip
-	```bash
-	sudo apt-get install python3-pip
-	```
+  1. Installer Python3, de préférence via le gestionnaire de paquets de votre système, sinon à partir de <https://www.python.org/downloads/>.
+    Pour les distributions dérivées de Debian (y compris Ubuntu) vous autrez également besoin d'installer `pip`
 
-	3. installer jupyter
-	```bash
-	python3 -m pip install --user jupyter
-	```
+      ```bash
+      sudo apt-get install python3, python3-pip
+      ```
 
-* Installer [anaconda](https://www.continuum.io/downloads). La solution de facilité qui comprend python3, pip, jupyter et une foule de modules dont on ne se serivra pas.
+  2. Installer jupyter
 
+      ```bash
+      python3 -m pip install --user jupyter
+      ```
 
-## Éditeur de texte
-Pas un traitement de texte, pas un IDE, un *[éditeur de texte](https://fr.wikipedia.org/wiki/%C3%89diteur_de_texte)*.
+Utiliser (mais nous ne le recommandons pas) [anaconda](https://www.continuum.io/downloads), qui gère non-seulement Python et les modules Python, mais aussi beaucoup d'autres paquets et installera beaucoup de modules tiers dont on se servira pas
 
-# Ressources
+Nous verrons dans le cours comment utiliser [virtualenv](https://virtualenv.pypa.io) pour gérer des installations de Python isolées du système pour plus de confort.
+
+### Éditeur de texte
+
+Dans un premier temps : pas un traitement de texte, pas un IDE, un *[éditeur de texte](https://fr.wikipedia.org/wiki/%C3%89diteur_de_texte)*.
+
+## Ressources
 
 Il y a beaucoup, beaucoup de ressources disponibles pour apprendre Python. Ce qui suit n'est qu'une sélection.
 
 ## Livres
 
-* How to think like a computer scientist, by Jeffrey Elkner, Allen B. Downey, and Chris Meyers.
+- How to think like a computer scientist, by Jeffrey Elkner, Allen B. Downey, and Chris Meyers.
 Vous pouvez l'acheter. Vous pouvez aussi le lire [ici](http://openbookproject.net/thinkcs/python/english3e/)
-* Dive into Python, by Mark Pilgrim.
+- Dive into Python, by Mark Pilgrim.
 [Ici](http://www.diveintopython3.net/) vous pouvez le lire ou télécharger le pdf.
-* Learning Python, by Mark Lutz.
-* Beginning Python, by Magnus Lie Hetland.
-* Python Algorithms: Mastering Basic Algorithms in the Python Language, by Magnus Lie Hetland.
+- Learning Python, by Mark Lutz.
+- Beginning Python, by Magnus Lie Hetland.
+- Python Algorithms: Mastering Basic Algorithms in the Python Language, by Magnus Lie Hetland.
 Peut-être un peu costaud pour des débutants.
-* Programmation Efficace. Les 128 Algorithmes Qu'Il Faut Avoir Compris et Codés en Python au Cours de sa Vie, by Christoph Dürr and Jill-Jênn Vie.
+- Programmation Efficace. Les 128 Algorithmes Qu'Il Faut Avoir Compris et Codés en Python au Cours de sa Vie, by Christoph Dürr and Jill-Jênn Vie.
 Si le cours vous paraît trop facile. Le code Python est clair, les difficultés sont commentées. Les algos sont très costauds.
 
 ## Web
 
-Je vous conseille vivement d'utiliser un (ou plus) des sites et tutoriels ci-dessous.
+Il vous est vivement conseillé d'utiliser un (ou plus) des sites et tutoriels ci-dessous.
 
-* [Coding Game](https://www.codingame.com/home). Vous le retrouverez dans les exercices hebdomadaires.
-* [Code Academy](https://www.codecademy.com/fr/learn/python)
-* [newcoder.io](http://newcoder.io/). Des projets commentés, commencer par 'Data Visualization'
-* [Google's Python Class](https://developers.google.com/edu/python/). Guido a travaillé chez eux. Pas [ce Guido](http://vignette2.wikia.nocookie.net/pixar/images/1/10/Guido.png/revision/latest?cb=20140314012724), [celui-là](https://en.wikipedia.org/wiki/Guido_van_Rossum#/media/File:Guido_van_Rossum_OSCON_2006.jpg)
-* [Mooc Python](https://www.fun-mooc.fr/courses/inria/41001S03/session03/about#). Un mooc de l'INRIA, carré.
-* [Code combat](https://codecombat.com/)
+- [Coding Game](https://www.codingame.com/home). Vous le retrouverez dans les exercices hebdomadaires.
+- [Code Academy](https://www.codecademy.com/fr/learn/python)
+- [newcoder.io](http://newcoder.io/). Des projets commentés, commencer par 'Data Visualization'
+- [Google's Python Class](https://developers.google.com/edu/python/). Guido a travaillé chez eux. Pas [ce Guido](http://vignette2.wikia.nocookie.net/pixar/images/1/10/Guido.png/revision/latest?cb=20140314012724), [celui-là](https://en.wikipedia.org/wiki/Guido_van_Rossum#/media/File:Guido_van_Rossum_OSCON_2006.jpg)
+- [Mooc Python](https://www.fun-mooc.fr/courses/inria/41001S03/session03/about#). Un mooc de l'INRIA, carré.
+- [Code combat](https://codecombat.com/)
 
 ## Licence
 
