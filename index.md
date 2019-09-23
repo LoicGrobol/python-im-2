@@ -26,6 +26,12 @@ Tous les supports sont sur [github](https://github.com/loicgrobol/python-im-2), 
 
 - [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/python-man-1.ipynb)
 
+### 2019-09-18 : Rappel des bases (2)
+
+- [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/python-man-2.ipynb)
+- Exos:
+	- exercices à la fin du notebook sur [le ventre de Paris](./data/zola_ventre-de-paris.txt)
+
 ## Outils
 
 Vous aurez besoin d'un interpréteur Python et d'un éditeur de texte.
