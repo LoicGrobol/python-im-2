@@ -24,13 +24,16 @@ Tous les supports sont sur [github](https://github.com/loicgrobol/python-im-2), 
 
 ### 2019-09-18 : Rappel des bases
 
-- [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/python-man-1.ipynb)
+- [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/python-man-1.ipynb) (énoncés rectifiés!)
+- corrections:
+    - [exercices du notebook](./corrections/man_1.py)
+    - [ASCII art](./corrections/ascii_art.py)
 
 ### 2019-09-18 : Rappel des bases (2)
 
 - [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/python-man-2.ipynb)
 - Exos:
-	- exercices à la fin du notebook sur [le ventre de Paris](./data/zola_ventre-de-paris.txt)
+    - exercices à la fin du notebook sur [le ventre de Paris](./data/zola_ventre-de-paris.txt)
 
 ## Outils
 
