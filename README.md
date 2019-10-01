@@ -1,6 +1,6 @@
 Langages de script : niveau 2
 =============================
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/loicgrobol/python-im2/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master)
 
 Cours de python pour le M2 Ingénierie multilinque.
 
