@@ -24,16 +24,22 @@ Tous les supports sont sur [github](https://github.com/loicgrobol/python-im-2), 
 
 ### 2019-09-18 : Rappel des bases
 
-- [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/python-man-1.ipynb) (énoncés rectifiés!)
+- [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/1-man-1.ipynb) (énoncés rectifiés!)
 - corrections:
     - [exercices du notebook](./corrections/man_1.py)
     - [ASCII art](./corrections/ascii_art.py)
 
 ### 2019-09-18 : Rappel des bases (2)
 
-- [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/python-man-2.ipynb)
+- [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/2-man-2.ipynb)
 - Exos:
     - exercices à la fin du notebook sur [le ventre de Paris](./data/zola_ventre-de-paris.txt)
+
+### 2019-10-02 : Objets et modules
+
+- [Slides objets](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/3a-oop.ipynb)
+- [Slides modules](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/3a-oop.ipynb)
+
 
 ## Outils
 
