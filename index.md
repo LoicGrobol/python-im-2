@@ -34,11 +34,16 @@ Tous les supports sont sur [github](https://github.com/loicgrobol/python-im-2), 
 - [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/2-man-2.ipynb)
 - Exos:
     - exercices à la fin du notebook sur [le ventre de Paris](./data/zola_ventre-de-paris.txt)
+- Corrections:
+  - [The descent](/corrections/the_descent.py)
+  - [Zola](/corrections/zola.py)
 
 ### 2019-10-02 : Objets et modules
 
 - [Slides objets](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/3a-oop.ipynb)
 - [Slides modules](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/3a-oop.ipynb)
+- Exos:
+  - Exercices à la fin du notebook modules, à partir de [`fixme.py`](/data/fixme.py)
 
 
 ## Outils
