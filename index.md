@@ -41,9 +41,10 @@ Tous les supports sont sur [github](https://github.com/loicgrobol/python-im-2), 
 ### 2019-10-02 : Objets et modules
 
 - [Slides objets](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/3a-oop.ipynb)
-- [Slides modules](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/3a-oop.ipynb)
+- [Slides modules](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/3b-modules.ipynb)
 - Exos:
   - Exercices à la fin du notebook modules, à partir de [`fixme.py`](/data/fixme.py)
+  - [Codingame Enigma](https://www.codingame.com/ide/puzzle/encryptiondecryption-of-enigma-machine)
 
 
 ## Outils
