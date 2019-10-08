@@ -25,7 +25,6 @@ def shift(n, s, encode=True):
 
 
 def apply_rotor(rotor, s, encode=True):
-    rotor_indices = get_indices(rotor)
     if encode:
         table = str.maketrans(alphabet, rotor)
     else:
