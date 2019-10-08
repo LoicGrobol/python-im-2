@@ -49,8 +49,11 @@ Tous les supports sont sur [github](https://github.com/loicgrobol/python-im-2), 
 
 ### 2019-10-09 : récursion
 - [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/4a-recursion.ipynb)
+- Exo préliminaire:
+  - Complétez le [script](./data/parse_conllu.py) qui parse le [fichier conll](./data/fr_gsd-ud-test.conllu) et donne le nombre de phrases, le nombre de tokens et le nombre de tokens d’une catégorie morpho-syntaxique choisie par l’utilisateur. Trouver les tokens dont le lemme se termine en ‘ment’ qui ne sont pas des adverbes, les afficher triés par forme et par fonction.
 - Exos:
   - [Codingame Brackets](https://www.codingame.com/training/easy/brackets-extreme-edition)
+  - exercices à la fin du notebook
 
 ## Outils
 
