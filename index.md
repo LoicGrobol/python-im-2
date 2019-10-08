@@ -45,7 +45,12 @@ Tous les supports sont sur [github](https://github.com/loicgrobol/python-im-2), 
 - Exos:
   - Exercices à la fin du notebook modules, à partir de [`fixme.py`](/data/fixme.py)
   - [Codingame Enigma](https://www.codingame.com/ide/puzzle/encryptiondecryption-of-enigma-machine)
+  
 
+### 2019-10-09 : récursion
+- [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/4a-recursion.ipynb)
+- Exos:
+  - [Codingame Brackets](https://www.codingame.com/training/easy/brackets-extreme-edition)
 
 ## Outils
 
