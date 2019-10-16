@@ -1,6 +1,7 @@
 # Reading the data
-noms = {}
+noms = dict()
 with open('noms2008nat_txt.txt') as in_stream:
+    # On gère la colonne d'en-tête à part
     years = next(in_stream).strip().split('\t')[1:]
     for line in in_stream:
         n, *y = line.strip().split('\t')

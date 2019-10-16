@@ -93,3 +93,4 @@ ENV/
 .ropeproject
 
 .mypy_cache
+tags
