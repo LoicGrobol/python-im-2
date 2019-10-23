@@ -72,6 +72,7 @@ Tous les supports sont sur [github](https://github.com/loicgrobol/python-im-2), 
 ### 2019-10-23 : examen et projet
 
 - [Sujet de l'examen](/exam/exam-2019.md)
+- [Consignes pour les projets](/assignments/projets.md)
 
 ## Outils
 
