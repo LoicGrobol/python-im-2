@@ -6,14 +6,22 @@ class Node:
 
     def __eq__(self, other):
         """On redéfinit la fonction d'égalité pour prendre en compte les arbres correctement."""
-        return self.value == other.value and self.left == other.left and self.right == other.right
+        return (
+            self.value == other.value
+            and self.left == other.left
+            and self.right == other.right
+        )
 
     def __str__(self):
         """Donne une représentation textuelle de votre arbre binaire."""
         if not self.left or not self.right:
-            return f"{self.value}"
+            return str(self.value)
         else:
-            return "( {} {} {} )".format(self.value, str(self.left), str(self.right))
+            return "( {} {} {} )".format(
+                self.value,
+                str(self.left),
+                str(self.right)
+            )
 
 
 def invert(node):
@@ -102,6 +110,7 @@ def parse_node(s):
         token = tokens.pop(0)
         assert token == ")"  # un noeud avec 2 fils aura toujours une ')' après
         return node
+
     def parse_aux():
         """La fonction auxilliaire pour renvoyer un Node.
 
@@ -132,12 +141,20 @@ def parse_node(s):
             return parse_node_with_children()
         else:  # le cas 2.
             return Node(int(token))
+
     return parse_aux()
 
 
-assert invert(Node(1, Node(2, Node(4), Node(5)), Node(3, Node(6), Node(7)))) == Node(1, Node(3, Node(7), Node(6)), Node(2, Node(5), Node(4)))
+assert invert(Node(1, Node(2, Node(4), Node(5)), Node(3, Node(6), Node(7)))) == Node(
+    1, Node(3, Node(7), Node(6)), Node(2, Node(5), Node(4))
+)
 assert str(Node(1, Node(2), Node(3))) == "( 1 2 3 )"
-assert str(Node(1, Node(2, Node(4), Node(5)), Node(3, Node(6), Node(7)))) == "( 1 ( 2 4 5 ) ( 3 6 7 ) )"
+assert (
+    str(Node(1, Node(2, Node(4), Node(5)), Node(3, Node(6), Node(7))))
+    == "( 1 ( 2 4 5 ) ( 3 6 7 ) )"
+)
 assert parse_node("( 1 2 3 )") == Node(1, Node(2), Node(3))
-assert parse_node("( 1 ( 2 4 5 ) ( 3 6 7 ) )") == Node(1, Node(2, Node(4), Node(5)), Node(3, Node(6), Node(7)))
+assert parse_node("( 1 ( 2 4 5 ) ( 3 6 7 ) )") == Node(
+    1, Node(2, Node(4), Node(5)), Node(3, Node(6), Node(7))
+)
 print("tout est ok")
