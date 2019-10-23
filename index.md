@@ -69,7 +69,7 @@ Tous les supports sont sur [github](https://github.com/loicgrobol/python-im-2), 
 - [Codingbat](https://codingbat.com/python)
 - [Examen 2018](/data/exam-2018.md)
 
-### 2019-10-23 : examen et projet
+### 2019-10-23 : examen et projets
 
 - [Sujet de l'examen](/exam/exam-2019.md)
 - [Consignes pour les projets](/assignments/projets.md)
