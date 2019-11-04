@@ -82,6 +82,10 @@ slides et les notebooks ci-dessous ouvrent sur Binder pour une utilisation sans 
 - [Sujet de l'examen](/exam/exam-2019.md)
 - [Consignes pour les projets](/assignments/projets.md)
 
+### 2019-11-04 : git
+
+- [Learn Git](https://learngitbranching.js.org/)
+
 ## Outils
 
 Vous aurez besoin d'un interpréteur Python et d'un éditeur de texte.
