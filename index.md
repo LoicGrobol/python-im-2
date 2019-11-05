@@ -84,7 +84,8 @@ slides et les notebooks ci-dessous ouvrent sur Binder pour une utilisation sans 
 
 ### 2019-11-04 : git
 
-- [Learn Git](https://learngitbranching.js.org/)
+- [Exercices](/slides/7a-exos.ipynb)
+- [Learn git branching](https://learngitbranching.js.org/)
 
 ## Outils
 
