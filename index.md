@@ -7,9 +7,10 @@ title: Python — M2 Ingénierie Multilingue 2019
 
 - Loïc Grobol [\<loic.grobol@gmail.com\>](mailto:loic.grobol@gmail.com)
 - Yoann Dupont [\<yoa.dupont@gmail.com\>](mailto:yoa.dupont@gmail.com)
-- Le mercredi de 9h à 12h en salle 7,03 (Inalco PLC, 65 rue des Grands Moulins Paris) sauf indication contraire
+- Le mercredi de 9h à 12h en salle 7,03 (Inalco PLC, 65 rue des Grands Moulins Paris) sauf
+  indication contraire
 - Cette page : <https://loicgrobol.github.io/python-im-2>
-<!-- - [Consignes pour les projets](projets.md) -->
+- [Consignes pour les projets](/assignments/projets.md)
 
 ## Objectifs
 
@@ -82,11 +83,18 @@ slides et les notebooks ci-dessous ouvrent sur Binder pour une utilisation sans 
 - [Sujet de l'examen](/exam/exam-2019.md)
 - [Consignes pour les projets](/assignments/projets.md)
 
+### 2019-11-04 : git
+
+- [Exercices](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/7a-exos.ipynb)
+- [slides git](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/7b-git.ipynb)
+- [Learn git branching](https://learngitbranching.js.org/)
+- [Exercice git](https://github.com/LoicGrobol/fixme)
+
 ## Outils
 
 Vous aurez besoin d'un interpréteur Python et d'un éditeur de texte.
 
-### Python & co.
+### Python & co
 
 Vous travaillerons avec Python 3.7 et supérieur
 
@@ -99,11 +107,12 @@ shell `python` (ipython est inclus dans jupyter).
 
 Deux options pour l'installation :
 
-#### Installer uniquement les outils nécessaires avec pip:
+#### Installer uniquement les outils nécessaires avec pip
 
 1. Installer Python 3, de préférence via le gestionnaire de paquets de votre système, sinon à partir
    de <https://www.python.org/downloads/>.
-  Pour les distributions dérivées de Debian (y compris Ubuntu) vous aurez également besoin d'installer `pip`
+   Pour les distributions dérivées de Debian (y compris Ubuntu) vous aurez également besoin
+   d'installer `pip`
 
       ```bash
       sudo apt install python3 python3-pip
@@ -129,7 +138,8 @@ gérer des installations de Python isolées du système pour plus de confort.
 
 Dans un premier temps : pas un traitement de texte, pas un IDE, un *[éditeur de texte](https://fr.wikipedia.org/wiki/%C3%89diteur_de_texte)*.
 
-Une fois que vous êtes à l'aise pour développer dans un éditeur de texte, vous pouvez si vous le désirez passer à un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement)
+Une fois que vous êtes à l'aise pour développer dans un éditeur de texte, vous pouvez si vous le
+désirez passer à un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement)
 
 ## Ressources
 
