@@ -83,11 +83,15 @@ slides et les notebooks ci-dessous ouvrent sur Binder pour une utilisation sans 
 - [Sujet de l'examen](/exam/exam-2019.md)
 - [Consignes pour les projets](/assignments/projets.md)
 
-### 2019-11-04 : git
+### 2019-11-04 : ~~git~~ exos et exercice incendie
 
 - [Exercices de décrassage](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/7a-exos.ipynb)
   - [testcase](/data/7.0-testcase.txt) et [cible](/data/7.0-target.txt)
-- [slides git](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/7b-git.ipynb)
+
+
+### 2019-11-13 : git
+- [Exercices de décrassage](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/8a-exos.ipynb)
+- [slides git](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/8b-git.ipynb)
 - [Learn git branching](https://learngitbranching.js.org/)
 - [Exercice git](https://github.com/LoicGrobol/fixme)
 
