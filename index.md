@@ -88,12 +88,18 @@ slides et les notebooks ci-dessous ouvrent sur Binder pour une utilisation sans 
 - [Exercices de décrassage](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/7a-exos.ipynb)
   - [testcase](/data/7.0-testcase.txt) et [cible](/data/7.0-target.txt)
 
-
 ### 2019-11-13 : git
+
 - [Exercices de décrassage](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/8a-exos.ipynb)
 - [slides git](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/8b-git.ipynb)
 - [Learn git branching](https://learngitbranching.js.org/)
 - [Exercice git](https://github.com/LoicGrobol/fixme)
+
+### 2019-11-20 pip et virtualenv
+
+- [Shadow of the knight S01E01](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1)
+- [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/9-pip-virtualenv.ipynb)
+
 
 ## Outils
 
