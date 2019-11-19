@@ -1,7 +1,8 @@
 gensim
 numpy
-rise
+RISE
 scikit-learn
 spacy
 matplotlib
 jupyterlab
+regex
