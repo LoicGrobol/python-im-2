@@ -91,6 +91,7 @@ slides et les notebooks ci-dessous ouvrent sur Binder pour une utilisation sans 
 
 ### 2019-11-13 : git
 - [Exercices de décrassage](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/8a-exos.ipynb)
+  - [Corrigé](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=corrections/exos-8.ipynb)
 - [slides git](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/8b-git.ipynb)
 - [Learn git branching](https://learngitbranching.js.org/)
 - [Exercice git](https://github.com/LoicGrobol/fixme)
