@@ -96,6 +96,12 @@ slides et les notebooks ci-dessous ouvrent sur Binder pour une utilisation sans 
 - [Learn git branching](https://learngitbranching.js.org/)
 - [Exercice git](https://github.com/LoicGrobol/fixme)
 
+### 2019-11-20 pip et virtualenv
+
+- [Shadow of the knight S01E01](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1)
+- [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/9-pip-virtualenv.ipynb)
+
+
 ## Outils
 
 Vous aurez besoin d'un interpréteur Python et d'un éditeur de texte.
