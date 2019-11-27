@@ -6,3 +6,6 @@ spacy
 matplotlib
 jupyterlab
 regex
+beautifulsoup4
+requests
+lxml
