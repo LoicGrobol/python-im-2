@@ -101,6 +101,11 @@ slides et les notebooks ci-dessous ouvrent sur Binder pour une utilisation sans 
 - [Shadow of the knight S01E01](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1)
 - [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/9-pip-virtualenv.ipynb)
 
+### 2019-11-27 parseurs et correction
+
+- [Notebook parseurs](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/parseurs.ipynb)
+- [Correction de l'évaluation](/corrections/exam2019.py)
+
 
 ## Outils
 
