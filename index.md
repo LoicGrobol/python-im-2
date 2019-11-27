@@ -104,6 +104,7 @@ slides et les notebooks ci-dessous ouvrent sur Binder pour une utilisation sans 
 ### 2019-11-27 parseurs et correction
 
 - [Notebook parseurs](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/parseurs.ipynb)
+  - [Correction Neil Young](/corrections/neil_young.ipynb)
 - [Correction de l'évaluation](/corrections/exam2019.py)
 
 

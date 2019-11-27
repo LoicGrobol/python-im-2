@@ -28,7 +28,7 @@ def parse_file(file_path):
             # "<REGION>\t<NUMÉRO>\tAI08<COMPOSÉ> - <RELEVÉ>\t<UNITÉ>\t<VALEURS>…"
             # On l'extrait proprement avec une affectation étendue
             # Notez l'opérateur « reste » (`*`) sur le dernier élément
-            region, number, raw_substance, unit, *measures = row.strip().split("\t")
+            region, number, raw_substance, unit, *measures = cols
             #  Encore des lignes pièges !
             if region == "France entière":
                 continue
@@ -79,7 +79,7 @@ def question2(records):
     # On les nettoie.
     # Attention, ceci est un **générateur**, le nettoyage effectif n'est pas fait ici mais quand on
     # itère dessus
-    noms = (re.sub(r"[\W]", "", n) for n in noms)
+    noms = (re.sub(r"\W", "", n) for n in noms)
     # Feinte du chacal pour compter les éléments d'un itérable qui vérifient une condition sans
     # prendre de place en mémoire
     res = sum(1 for n in noms if len(n) >= 10)
@@ -151,7 +151,7 @@ def question6(records):
     composés mentionnés dans ce fichier.
     """
     # Cette fois-ci on commence par nettoyer
-    noms = (re.sub(r"\(.*\)\s?", "", r.substance).strip() for r in records)
+    noms = (re.sub(r"\(.*?\)\s?", "", r.substance).strip() for r in records)
     # puis mettre en minuscules
     noms = (n.lower() for n in noms)
     # dédupliquer
@@ -162,7 +162,7 @@ def question6(records):
 
 
 def capitalize(nom):
-    """Donne la captiatlisation correcte pour un nom de région."""
+    """Donne la capitalisation correcte pour un nom de région."""
     nom = nom.lower()
     # On split sur les non-mots, en les conservant
     fragments = re.split(r"(\W)", nom)
