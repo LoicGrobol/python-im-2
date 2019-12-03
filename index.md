@@ -108,6 +108,14 @@ slides et les notebooks ci-dessous ouvrent sur Binder pour une utilisation sans 
   - [Joséphine](/data/josephine-1-150119.xml)
 - [Correction de l'évaluation](/corrections/exam2019.py)
 
+### 2019-12-03 linters et débuggueurs
+
+- [Slides](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/lecture-11/11-lint_debug.ipynb)
+  - [lintme.py](/slides/lecture-11/lintme.py)
+  - [debugme.py](/slides/lecture-11/debugme.py)
+- [Notebook parseurs](https://mybinder.org/v2/gh/loicgrobol/python-im-2/master?filepath=slides/parseurs.ipynb)
+  - [Joséphine](/data/josephine-1-150119.xml)
+
 ## Outils
 
 Vous aurez besoin d'un interpréteur Python et d'un éditeur de texte.
