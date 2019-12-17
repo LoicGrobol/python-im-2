@@ -11,7 +11,7 @@ def vocab(f_path):
 
 
 def cooc(f_path, t2i):
-    cooc = [[0]*len(t2i)]*len(t2i)
+    cooc = [[0] * len(t2i)] * len(t2i)
     with open(f_path) as in_stream:
         for l in in_stream:
             words = l.strip().split()

@@ -3,6 +3,12 @@ title: Python — M2 Ingénierie Multilingue 2019
 ---
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/LoicGrobol/python-im-2/master)
 
+## Nouvelles
+
+- Les projets sont à rendre **le 10 janvier 2020** au plus tard à 20h00 (UTC+1)
+- Le cours du 2019-12-19 est annulé faute de transports
+- Le cours du 2019-12-10 est annulé faute de transports
+
 ## Pratique
 
 - Loïc Grobol [\<loic.grobol@gmail.com\>](mailto:loic.grobol@gmail.com)

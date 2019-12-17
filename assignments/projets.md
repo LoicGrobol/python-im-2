@@ -9,7 +9,7 @@ Son thème devra être lié au TAL ou au traitement de données et pourra évide
 
 ## Consignes
 
-- Projet à rendre le XX janvier *au plus tard*
+- Projet à rendre le 10 janvier *au plus tard*
 - Projet collectif, par groupe de 2 ou 3 (sauf exception)
 
 Le rendu devra comporter :
