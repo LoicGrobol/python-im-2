@@ -5,6 +5,7 @@ title: Python — M2 Ingénierie Multilingue 2019
 
 ## Nouvelles
 
+- Les notes de l'évaluation à mi-semestre sont disponible sur demande à [\<loic.grobol@gmail.com\>](mailto:loic.grobol@gmail.com)
 - Les projets sont à rendre **le 10 janvier 2020** au plus tard à 20h00 (UTC+1)
 - Le cours du 2019-12-19 est annulé faute de transports
 - Le cours du 2019-12-10 est annulé faute de transports
